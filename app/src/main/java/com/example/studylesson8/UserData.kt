@@ -1,11 +1,11 @@
 package com.example.studylesson8
 
 object UserData {
-    fun getUserList() = listOf<User>(
+    fun getUserArray() = arrayOf<User>(
         User("Andrew", "Bek"),
-        User("Mattew", "McLin"),
+        User("Mathew", "McLinn"),
         User("John", "Klein"),
-        User("Harry", "Plotter"),
-        User("Volgast", "Manowar")
+        User("Harry", "Fox"),
+        User("Alex", "Maxwell")
         )
 }
